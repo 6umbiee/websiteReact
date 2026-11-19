@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  padding: 10px;
+  background-color: darkgray;
+  text-align: right;
+}
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.hero {
+  padding: 20px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+.footer {
+  background-color: darkgrey;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  margin: 0;
+}
+ul {
+  padding: 0%;
+}
+.delete-btn {
+  margin: 5px;
+}
